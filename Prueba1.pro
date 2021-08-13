@@ -10,10 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    qpaintbox.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    qpaintbox.h
 
 FORMS += \
     mainwindow.ui
